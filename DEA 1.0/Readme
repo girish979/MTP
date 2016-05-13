@@ -1,0 +1,32 @@
+
+--------------------------------------------------------------------------------------------
+Input files are contained in /input/
+Input Files: A (Input for Phase I)
+Input Files: A1 (Input for Phase II)
+
+Output files for Phase I & Phase II will be generated in /output/
+Output File Name: opXY   
+x:xth DMU
+Y:yth Phase
+
+The alphabetical order of Input files are matched to corresponding sequence in output files
+
+--------------------------------------------------------------------------------------------
+
+-----------
+Compilation
+-----------
+./src/make
+
+---------
+Execution
+---------
+./src/make run
+
+
+
+
+
+-------------------------------------------------------------------------------------
+INPUT:
+in Phase II input the name of variable theta should be given as "theta" for all inputs

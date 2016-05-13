@@ -1,0 +1,38 @@
+//////////////////Error/////////////////////////
+if eff is coming as zeros, because of C*eps in gen-ker
+ex: if C=1, no errors
+/////////////////////////////////////////////////
+
+execution:
+
+make 
+
+./a.out a.out [datasetname] [No. of classes]
+
+
+
+runs using matlab inverse
+
+######################################
+update 1:
+
+corrected span computations
+
+edited compute_span.sh
+./inverse changed
+./gen-kernel changed
+######################################
+
+
+
+
+#################################################################
+Execution: change No. of classes in ga.c, 
+		   change #define DMUs 3 in solver.c,   = k*(k-1) / 2
+		   change dataset name in script.c	
+
+compile & run ./a.out
+
+##################################################################
+
+GA implementation changed
